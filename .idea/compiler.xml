@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="04-GiantSquid" />
+        <module name="02-Dive" />
+        <module name="03-BinaryDiagnostic" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="02-Dive" target="16" />
+      <module name="03-BinaryDiagnostic" target="16" />
+      <module name="04-GiantSquid" target="16" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
